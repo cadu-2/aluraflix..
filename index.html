@@ -1,62 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
-    <title>MusicFlix</title>
+    <title>Como Tocar Violão e Outros Instrumentos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        iframe {
+            max-width: 100%;
+        }
+        img {
+            margin-top: 20px;
+            width: 300px; /* imagem menor */
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-
 <body>
-    <header>MUSICFLIX</header>
 
-    <section class="chamada">
-        <div class="chamada-texto">
-            <h1>COMO TOCAR VIOLÃO</h1>
-            <p>#Violão #Aula #Música</p>
-        </div>
+    <header>
+        <h1>Como Tocar Violão e Outros Instrumentos</h1>
+    </header>
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_sefyJqVaY?si=YtgkSYd203sp0qtn"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </div>
-    </section>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Aulas de Teclado</a>
+        <a href="#">Contato</a>
+    </nav>
 
-    <section class="categoria">
-        <h2>Aulas de Violão</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=miLwmu2hVtM"><img src="https://img.youtube.com/vi/miLwmu2hVtM/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=CD04hIEmh3g"><img src="https://img.youtube.com/vi/CD04hIEmh3g/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=0lR9ZoMPcP4"><img src="https://img.youtube.com/vi/0lR9ZoMPcP4/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=7y4wQun2G7I"><img src="https://img.youtube.com/vi/7y4wQun2G7I/maxresdefault.jpg"></a>
-        </div>
-    </section>
+    <main>
+        <h2>Aprenda de forma simples e divertida</h2>
+        
+        <!-- Vídeo que você enviou -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/avJ0uXQ8pZ0" 
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
-    <section class="categoria">
-        <h2>Aulas de Teclado</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=ch2OoZxKZqM"><img src="https://img.youtube.com/vi/ch2OoZxKZqM/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=gn3-RmoSgL0"><img src="https://img.youtube.com/vi/gn3-RmoSgL0/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=PT1bkR32UGQ"><img src="https://img.youtube.com/vi/PT1bkR32UGQ/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=b6p85Zjrj0U"><img src="https://img.youtube.com/vi/b6p85Zjrj0U/maxresdefault.jpg"></a>
-        </div>
-    </section>
+        <!-- Imagem abaixo do vídeo -->
+        <img src="violao.png" alt="Imagem de violão">
+    </main>
 
-    <section class="categoria">
-        <h2>Aulas de Bateria</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=GpOSWZ8bSro"><img src="https://img.youtube.com/vi/GpOSWZ8bSro/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=wDhyZ3GmrrM"><img src="https://img.youtube.com/vi/wDhyZ3GmrrM/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=Tw5yJ1LV2bQ"><img src="https://img.youtube.com/vi/Tw5yJ1LV2bQ/maxresdefault.jpg"></a>
-            <a href="https://www.youtube.com/watch?v=hQfT8vY9AOM"><img src="https://img.youtube.com/vi/hQfT8vY9AOM/maxresdefault.jpg"></a>
-        </div>
-    </section>
+    <footer>
+        <p>Site criado para fins educativos - 2025</p>
+    </footer>
 
 </body>
 </html>
